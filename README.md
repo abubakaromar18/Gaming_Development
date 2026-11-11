@@ -51,3 +51,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 
 | # | Project | Stack | Level |
 |---|---------|-------|-------|
+| 001 | [Fixed-Timestep Pong](projects/001-fixed-timestep-pong/) | TypeScript + Canvas | Starter |

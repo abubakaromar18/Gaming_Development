@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>001 · Fixed-Timestep Pong</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0b0d12; color: #cfd6e4; font-family: ui-monospace, monospace; }
+      body { display: grid; place-items: center; }
+      canvas { background: #11141b; border: 1px solid #2a3040; max-width: 96vw; height: auto; }
+      p { text-align: center; opacity: 0.7; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <canvas id="game" width="800" height="500"></canvas>
+      <p>W/S to move · Space to serve · 1–4 change simulation Hz · I toggles interpolation</p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
