@@ -52,3 +52,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 | # | Project | Stack | Level |
 |---|---------|-------|-------|
 | 001 | [Fixed-Timestep Pong](projects/001-fixed-timestep-pong/) | TypeScript + Canvas | Starter |
+| 002 | [Input Action Mapping](projects/002-input-action-mapping/) | Python + pygame | Starter |
