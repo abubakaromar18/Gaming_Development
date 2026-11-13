@@ -9,7 +9,7 @@ _Game loops, input, state, and core patterns_
 
 - [x] 001 | Fixed-Timestep Pong | TypeScript + Canvas | Starter | Foundations | Pong on a fixed-timestep loop with interpolated rendering, decoupling simulation rate from frame rate → [folder](projects/001-fixed-timestep-pong/)
 - [x] 002 | Input Action Mapping | Python + pygame | Starter | Foundations | Breakout with an action-mapping input layer (rebindable keyboard/gamepad) separating devices from game commands → [folder](projects/002-input-action-mapping/)
-- [ ] 003 | Stack-Based State Machine | Lua + LÖVE | Starter | Foundations | Snake with menu/play/pause/game-over states managed by a pushdown automaton
+- [x] 003 | Stack-Based State Machine | Lua + LÖVE | Starter | Foundations | Snake with menu/play/pause/game-over states managed by a pushdown automaton → [folder](projects/003-stack-based-state-machine/)
 - [ ] 004 | Scene Manager & Transitions | C# + MonoGame | Starter | Foundations | Multi-scene arcade shell with scene lifecycle hooks and fade transitions
 - [ ] 005 | Deterministic RNG & Replays | Go + Ebitengine | Intermediate | Foundations | Asteroids with seeded RNG and input recording for frame-exact replay playback
 - [ ] 006 | Command Pattern Undo | Python | Starter | Foundations | Sokoban whose moves are commands, giving unlimited undo/redo and a level solver check
