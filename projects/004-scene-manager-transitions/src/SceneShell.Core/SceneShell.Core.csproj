@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Pure game logic: scenes, the scene manager, transitions and the arcade games.
+    No MonoGame reference, so it builds and tests anywhere the .NET SDK runs.
+  -->
+  <PropertyGroup>
+    <RootNamespace>SceneShell.Core</RootNamespace>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

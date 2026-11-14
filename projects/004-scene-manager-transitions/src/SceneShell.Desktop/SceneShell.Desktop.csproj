@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    MonoGame DesktopGL host. It turns keyboard state into InputFrames, feeds the core
+    shell time and input, and implements ICanvas with a SpriteBatch and a 1×1 white texture.
+    No content pipeline is needed: every pixel on screen is a procedurally drawn rectangle.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SceneShell.Desktop</RootNamespace>
+    <AssemblyName>SceneShell</AssemblyName>
+    <RollForward>Major</RollForward>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../SceneShell.Core/SceneShell.Core.csproj" />
+  </ItemGroup>
+
+</Project>
