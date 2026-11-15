@@ -11,7 +11,7 @@ _Game loops, input, state, and core patterns_
 - [x] 002 | Input Action Mapping | Python + pygame | Starter | Foundations | Breakout with an action-mapping input layer (rebindable keyboard/gamepad) separating devices from game commands → [folder](projects/002-input-action-mapping/)
 - [x] 003 | Stack-Based State Machine | Lua + LÖVE | Starter | Foundations | Snake with menu/play/pause/game-over states managed by a pushdown automaton → [folder](projects/003-stack-based-state-machine/)
 - [x] 004 | Scene Manager & Transitions | C# + MonoGame | Starter | Foundations | Multi-scene arcade shell with scene lifecycle hooks and fade transitions → [folder](projects/004-scene-manager-transitions/)
-- [ ] 005 | Deterministic RNG & Replays | Go + Ebitengine | Intermediate | Foundations | Asteroids with seeded RNG and input recording for frame-exact replay playback
+- [x] 005 | Deterministic RNG & Replays | Go + Ebitengine | Intermediate | Foundations | Asteroids with seeded RNG and input recording for frame-exact replay playback → [folder](projects/005-deterministic-rng-replays/)
 - [ ] 006 | Command Pattern Undo | Python | Starter | Foundations | Sokoban whose moves are commands, giving unlimited undo/redo and a level solver check
 - [ ] 007 | Tetris with SRS | Rust + macroquad | Intermediate | Foundations | Tetris with Super Rotation System wall kicks, 7-bag randomizer, lock delay, and T-spin detection
 - [ ] 008 | Match-3 Board Engine | TypeScript + Canvas | Starter | Foundations | Match-3 with swap validation, cascade resolution, refill, and no-moves detection
