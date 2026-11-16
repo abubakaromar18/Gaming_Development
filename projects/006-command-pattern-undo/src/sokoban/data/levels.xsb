@@ -1,0 +1,51 @@
+; Bundled levels for 006 Command Pattern Undo. Original designs, CC0.
+; Format: XSB. A comment line before a level is its name.
+
+; First Push
+#######
+#@ $ .#
+#######
+
+; Side Step
+ #####
+ #   ###
+##$#   #
+# @ $  #
+#  .#. #
+########
+
+; Corner Turn
+######
+#@   #
+# $$ #
+#  . #
+### .#
+  ####
+
+; Two Rooms
+#########
+#   #   #
+# $ . $ #
+#  ##   #
+#. @  $.#
+#   #   #
+#########
+
+; Crossroads
+#######
+#. #  #
+#  $  #
+#.$@$.#
+#  $  #
+#  # .#
+#######
+
+; Warehouse
+##########
+#  .  #  #
+# $$  $  #
+#  # ### #
+## #.   .#
+ #  @ $ ##
+ #   #. #
+ ########

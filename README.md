@@ -56,3 +56,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 | 003 | [Stack-Based State Machine](projects/003-stack-based-state-machine/) | Lua + LÖVE | Starter |
 | 004 | [Scene Manager & Transitions](projects/004-scene-manager-transitions/) | C# + MonoGame | Starter |
 | 005 | [Deterministic RNG & Replays](projects/005-deterministic-rng-replays/) | Go + Ebitengine | Intermediate |
+| 006 | [Command Pattern Undo](projects/006-command-pattern-undo/) | Python | Starter |
