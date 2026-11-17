@@ -1,0 +1,28 @@
+[package]
+name = "tetris-srs"
+version = "0.1.0"
+edition = "2021"
+description = "Guideline-style Tetris core (SRS wall kicks, 7-bag, lock delay, T-spins) with a macroquad front end"
+license = "MIT"
+publish = false
+
+[lib]
+name = "tetris_srs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tetris-srs"
+path = "src/app/main.rs"
+required-features = ["gui"]
+
+[features]
+default = ["gui"]
+# The window/rendering layer. Build with `--no-default-features` to compile
+# and test only the pure core, with zero third-party dependencies.
+gui = ["dep:macroquad"]
+
+[dependencies]
+macroquad = { version = "0.4", optional = true }
+
+[profile.release]
+opt-level = 3

@@ -13,7 +13,7 @@ _Game loops, input, state, and core patterns_
 - [x] 004 | Scene Manager & Transitions | C# + MonoGame | Starter | Foundations | Multi-scene arcade shell with scene lifecycle hooks and fade transitions → [folder](projects/004-scene-manager-transitions/)
 - [x] 005 | Deterministic RNG & Replays | Go + Ebitengine | Intermediate | Foundations | Asteroids with seeded RNG and input recording for frame-exact replay playback → [folder](projects/005-deterministic-rng-replays/)
 - [x] 006 | Command Pattern Undo | Python | Starter | Foundations | Sokoban whose moves are commands, giving unlimited undo/redo and a level solver check → [folder](projects/006-command-pattern-undo/)
-- [ ] 007 | Tetris with SRS | Rust + macroquad | Intermediate | Foundations | Tetris with Super Rotation System wall kicks, 7-bag randomizer, lock delay, and T-spin detection
+- [x] 007 | Tetris with SRS | Rust + macroquad | Intermediate | Foundations | Tetris with Super Rotation System wall kicks, 7-bag randomizer, lock delay, and T-spin detection → [folder](projects/007-tetris-with-srs/)
 - [ ] 008 | Match-3 Board Engine | TypeScript + Canvas | Starter | Foundations | Match-3 with swap validation, cascade resolution, refill, and no-moves detection
 - [ ] 009 | Minesweeper with Hint Solver | Java + libGDX | Starter | Foundations | Minesweeper with first-click safety, flood fill, and a constraint-based hint system
 - [ ] 010 | 2048 as a Pure Reducer | TypeScript | Starter | Foundations | 2048 whose rules are a pure, fully unit-tested reducer behind a thin rendering shell
