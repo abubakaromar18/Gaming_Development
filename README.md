@@ -58,3 +58,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 | 005 | [Deterministic RNG & Replays](projects/005-deterministic-rng-replays/) | Go + Ebitengine | Intermediate |
 | 006 | [Command Pattern Undo](projects/006-command-pattern-undo/) | Python | Starter |
 | 007 | [Tetris with SRS](projects/007-tetris-with-srs/) | Rust + macroquad | Intermediate |
+| 008 | [Match-3 Board Engine](projects/008-match-3-board-engine/) | TypeScript + Canvas | Starter |
