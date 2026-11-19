@@ -1,0 +1,9 @@
+rootProject.name = 'minesweeper-hint-solver'
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+include 'core', 'desktop'

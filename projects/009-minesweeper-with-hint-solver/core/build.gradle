@@ -1,0 +1,29 @@
+// Pure game logic and the hint solver. No libGDX dependency, so it builds and
+// tests anywhere a JDK runs.
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    testImplementation platform("org.junit:junit-bom:${junitVersion}")
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+    testLogging {
+        events 'failed'
+        exceptionFormat 'full'
+    }
+}
+
+// Plays many games with the hint engine as the only player and prints win rates.
+// Usage: gradle :core:simulate -Pgames=500
+tasks.register('simulate', JavaExec) {
+    group = 'application'
+    description = 'Auto-plays games with the hint solver and reports win rates.'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'gamedev.minesweeper.sim.Simulation'
+    args(providers.gradleProperty('games').orElse('300').get())
+}

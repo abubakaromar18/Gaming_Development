@@ -1,0 +1,22 @@
+// libGDX presentation layer: window, input, and procedural rendering.
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':core')
+    implementation "com.badlogicgames.gdx:gdx:${gdxVersion}"
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:${gdxVersion}"
+    runtimeOnly "com.badlogicgames.gdx:gdx-platform:${gdxVersion}:natives-desktop"
+}
+
+application {
+    mainClass = 'gamedev.minesweeper.desktop.DesktopLauncher'
+}
+
+tasks.named('run', JavaExec) {
+    // GLFW must own the main thread on macOS.
+    if (System.getProperty('os.name').toLowerCase().contains('mac')) {
+        jvmArgs '-XstartOnFirstThread'
+    }
+}

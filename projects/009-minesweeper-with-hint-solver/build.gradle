@@ -1,0 +1,8 @@
+// Shared compiler settings. Each module declares its own plugins and dependencies.
+subprojects {
+    tasks.withType(JavaCompile).configureEach {
+        options.release = 21
+        options.encoding = 'UTF-8'
+        options.compilerArgs += ['-Xlint:all']
+    }
+}
