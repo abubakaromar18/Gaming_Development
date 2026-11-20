@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>010 · 2048 as a Pure Reducer</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0b0d12; color: #cfd6e4; font-family: ui-monospace, monospace; }
+      body { display: grid; place-items: center; }
+      canvas { background: #0b0d12; max-width: 96vw; max-height: 86vh; height: auto; touch-action: none; }
+      p { text-align: center; opacity: 0.7; font-size: 13px; max-width: 444px; margin: 10px auto; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <canvas id="game" width="444" height="488"></canvas>
+      <p>Arrows / WASD / swipe to move · U undo · Y redo · R restart seed · N new game · ?seed=123 in the URL</p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

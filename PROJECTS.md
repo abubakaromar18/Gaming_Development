@@ -16,7 +16,7 @@ _Game loops, input, state, and core patterns_
 - [x] 007 | Tetris with SRS | Rust + macroquad | Intermediate | Foundations | Tetris with Super Rotation System wall kicks, 7-bag randomizer, lock delay, and T-spin detection → [folder](projects/007-tetris-with-srs/)
 - [x] 008 | Match-3 Board Engine | TypeScript + Canvas | Starter | Foundations | Match-3 with swap validation, cascade resolution, refill, and no-moves detection → [folder](projects/008-match-3-board-engine/)
 - [x] 009 | Minesweeper with Hint Solver | Java + libGDX | Starter | Foundations | Minesweeper with first-click safety, flood fill, and a constraint-based hint system → [folder](projects/009-minesweeper-with-hint-solver/)
-- [ ] 010 | 2048 as a Pure Reducer | TypeScript | Starter | Foundations | 2048 whose rules are a pure, fully unit-tested reducer behind a thin rendering shell
+- [x] 010 | 2048 as a Pure Reducer | TypeScript | Starter | Foundations | 2048 whose rules are a pure, fully unit-tested reducer behind a thin rendering shell → [folder](projects/010-2048-as-a-pure-reducer/)
 - [ ] 011 | Space Invaders with Object Pools | C++ + SDL2 | Intermediate | Foundations | Invaders using object pools for bullets and enemies to avoid per-frame allocation
 - [ ] 012 | 2D Camera Systems | Python + pygame | Starter | Foundations | Scrolling demo with follow, deadzone, look-ahead, bounds, and trauma-based screen shake
 - [ ] 013 | Coroutines & Timers | Lua + LÖVE | Starter | Foundations | Wave shooter scripted with coroutine-driven timers and tween sequences
