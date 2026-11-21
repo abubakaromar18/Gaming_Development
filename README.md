@@ -61,3 +61,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 | 008 | [Match-3 Board Engine](projects/008-match-3-board-engine/) | TypeScript + Canvas | Starter |
 | 009 | [Minesweeper with Hint Solver](projects/009-minesweeper-with-hint-solver/) | Java + libGDX | Starter |
 | 010 | [2048 as a Pure Reducer](projects/010-2048-as-a-pure-reducer/) | TypeScript | Starter |
+| 011 | [Space Invaders with Object Pools](projects/011-space-invaders-with-object-pools/) | C++ + SDL2 | Intermediate |
