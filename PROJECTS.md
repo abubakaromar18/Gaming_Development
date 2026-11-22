@@ -18,7 +18,7 @@ _Game loops, input, state, and core patterns_
 - [x] 009 | Minesweeper with Hint Solver | Java + libGDX | Starter | Foundations | Minesweeper with first-click safety, flood fill, and a constraint-based hint system → [folder](projects/009-minesweeper-with-hint-solver/)
 - [x] 010 | 2048 as a Pure Reducer | TypeScript | Starter | Foundations | 2048 whose rules are a pure, fully unit-tested reducer behind a thin rendering shell → [folder](projects/010-2048-as-a-pure-reducer/)
 - [x] 011 | Space Invaders with Object Pools | C++ + SDL2 | Intermediate | Foundations | Invaders using object pools for bullets and enemies to avoid per-frame allocation → [folder](projects/011-space-invaders-with-object-pools/)
-- [ ] 012 | 2D Camera Systems | Python + pygame | Starter | Foundations | Scrolling demo with follow, deadzone, look-ahead, bounds, and trauma-based screen shake
+- [x] 012 | 2D Camera Systems | Python + pygame | Starter | Foundations | Scrolling demo with follow, deadzone, look-ahead, bounds, and trauma-based screen shake → [folder](projects/012-2d-camera-systems/)
 - [ ] 013 | Coroutines & Timers | Lua + LÖVE | Starter | Foundations | Wave shooter scripted with coroutine-driven timers and tween sequences
 - [ ] 014 | Tiled Map Loader | Go + Ebitengine | Intermediate | Foundations | Loads Tiled JSON maps with tile layers, object layers, and collision metadata
 - [ ] 015 | Platformer Character Controller | C# + MonoGame | Intermediate | Foundations | Tight platformer controls: coyote time, jump buffering, variable jump height, apex hang
