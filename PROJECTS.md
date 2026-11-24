@@ -20,7 +20,7 @@ _Game loops, input, state, and core patterns_
 - [x] 011 | Space Invaders with Object Pools | C++ + SDL2 | Intermediate | Foundations | Invaders using object pools for bullets and enemies to avoid per-frame allocation → [folder](projects/011-space-invaders-with-object-pools/)
 - [x] 012 | 2D Camera Systems | Python + pygame | Starter | Foundations | Scrolling demo with follow, deadzone, look-ahead, bounds, and trauma-based screen shake → [folder](projects/012-2d-camera-systems/)
 - [x] 013 | Coroutines & Timers | Lua + LÖVE | Starter | Foundations | Wave shooter scripted with coroutine-driven timers and tween sequences → [folder](projects/013-coroutines-timers/)
-- [ ] 014 | Tiled Map Loader | Go + Ebitengine | Intermediate | Foundations | Loads Tiled JSON maps with tile layers, object layers, and collision metadata
+- [x] 014 | Tiled Map Loader | Go + Ebitengine | Intermediate | Foundations | Loads Tiled JSON maps with tile layers, object layers, and collision metadata → [folder](projects/014-tiled-map-loader/)
 - [ ] 015 | Platformer Character Controller | C# + MonoGame | Intermediate | Foundations | Tight platformer controls: coyote time, jump buffering, variable jump height, apex hang
 - [ ] 016 | Top-Down Movement & Dash | Rust + macroquad | Starter | Foundations | Twin-stick movement with acceleration curves, dash with invulnerability frames, and aim assist
 - [ ] 017 | Game Settings System | Python | Starter | Foundations | Graphics/audio/control settings with schema validation, defaults, and persistence
