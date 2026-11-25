@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Pure game logic: the character controller, tile collision, fixed-step loop, feel
+    effects and a rectangle-only renderer. No MonoGame reference, so it builds and tests
+    anywhere the .NET SDK runs.
+  -->
+  <PropertyGroup>
+    <RootNamespace>Platformer.Core</RootNamespace>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Platformer.Core.Tests" />
+  </ItemGroup>
+
+</Project>

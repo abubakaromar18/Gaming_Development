@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <!--
+    Default mode: a normal xUnit project. Run it with `dotnet test`.
+
+    Offline mode (`-p:OfflineHarness=true`): the same test files compile against a tiny
+    in-repo stand-in for the xUnit attributes and asserts (OfflineHarness/), and the
+    project becomes a console app that runs them. It needs no NuGet packages, for machines
+    or sandboxes without access to nuget.org.
+  -->
+  <ItemGroup Condition="'$(OfflineHarness)' != 'true'">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <Compile Remove="OfflineHarness/**" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(OfflineHarness)' == 'true'">
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <ProjectReference Include="../../src/Platformer.Core/Platformer.Core.csproj" />
+  </ItemGroup>
+
+</Project>

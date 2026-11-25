@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    MonoGame DesktopGL host. It turns keyboard/gamepad state into ControllerInput, feeds the
+    core session frame time and input, and implements ICanvas with a SpriteBatch and a 1×1
+    white texture. No content pipeline: every pixel on screen is a procedurally drawn rectangle.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Platformer.Desktop</RootNamespace>
+    <AssemblyName>Platformer</AssemblyName>
+    <RollForward>Major</RollForward>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.2.1105" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Platformer.Core/Platformer.Core.csproj" />
+  </ItemGroup>
+
+</Project>
