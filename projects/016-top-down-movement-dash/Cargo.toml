@@ -1,0 +1,28 @@
+[package]
+name = "topdown-dash"
+version = "0.1.0"
+edition = "2021"
+description = "Twin-stick movement with acceleration curves, a dash with invulnerability frames, and aim assist, in a dependency-free Rust core with a macroquad front end"
+license = "MIT"
+publish = false
+
+[lib]
+name = "topdown_dash"
+path = "src/lib.rs"
+
+[[bin]]
+name = "topdown-dash"
+path = "src/app/main.rs"
+required-features = ["gui"]
+
+[features]
+default = ["gui"]
+# The window/rendering layer. Build with `--no-default-features` to compile
+# and test only the pure core, with zero third-party dependencies.
+gui = ["dep:macroquad"]
+
+[dependencies]
+macroquad = { version = "0.4", optional = true }
+
+[profile.release]
+opt-level = 3
