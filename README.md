@@ -67,3 +67,4 @@ See [CONVENTIONS.md](CONVENTIONS.md) for the full standard.
 | 014 | [Tiled Map Loader](projects/014-tiled-map-loader/) | Go + Ebitengine | Intermediate |
 | 015 | [Platformer Character Controller](projects/015-platformer-character-controller/) | C# + MonoGame | Intermediate |
 | 016 | [Top-Down Movement & Dash](projects/016-top-down-movement-dash/) | Rust + macroquad | Starter |
+| 017 | [Game Settings System](projects/017-game-settings-system/) | Python | Starter |
